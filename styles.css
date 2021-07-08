@@ -1,0 +1,60 @@
+body {
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 380px;
+    width: 280px;
+    background-color: white;
+}
+
+.post-header {
+    padding: 5px;
+    display: flex;
+    font-size: 8.5px;
+    margin-bottom: 4px;
+}
+
+.post-header p {
+    margin: 5px;
+    margin-bottom:-5px;
+}
+
+.post-header img {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 7px;
+    width: 15px;
+}
+
+.post-header i {
+    padding-left: 180px;
+    margin-top:5px;
+}
+
+.post-photo img {
+    width: 100%;
+}
+
+.post-footer {
+    display: flex;
+    -webkit-flex-direction: column;
+    font-size: 9px;
+    text-align: left;
+    padding: 6px;
+}
+
+.post-footer i {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding:2px;
+}
+.post-footer p {
+    margin: 5px, 5px, 0px, 0px;
+}
+
